@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputPanel test snapshot renders 1`] = `
+<div>
+  <h1>
+    Guess The Number Game
+  </h1>
+  <div>
+    <div
+      style={
+        Object {
+          "display": "inline-flex",
+        }
+      }
+    >
+      <h1>
+        Hint
+      </h1>
+      <div
+        id="game_hint"
+      >
+        
+      </div>
+    </div>
+  </div>
+  <div
+    contentEditable={true}
+    id="game_input"
+    onInput={[Function]}
+  />
+  <br />
+  <button
+    onClick={[Function]}
+  >
+    Submit
+  </button>
+  
+</div>
+`;
