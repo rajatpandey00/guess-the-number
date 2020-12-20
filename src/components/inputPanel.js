@@ -24,7 +24,7 @@ export const InputPanel = () => {
 		setIsCorrect(data.data.correct);
 		const query = document.getElementById("game_input");
 		let final = "";
-		const splittedValue = input.split("");
+		const splittedValue = input.substr(0, 8).split("");
 		splittedValue.forEach((v) => {
 			if (highlights.includes(parseInt(v))) {
 				final = final + `<span class="highlight">${v}</span>`;
@@ -40,7 +40,6 @@ export const InputPanel = () => {
 			<h1>Guess The Number Game</h1>
 			<HintPanel value={hint} />
 			<div
-				type="text"
 				id="game_input"
 				contentEditable
 				onInput={(e) => setValue(e.target.outerText)}

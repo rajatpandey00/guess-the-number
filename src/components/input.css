@@ -1,31 +1,24 @@
 #game_input .highlight {
-	color: red;
+	background-color: green;
 }
 
 #game_input {
-	-moz-appearance: textfield;
-	-webkit-appearance: textfield;
+	border: 5px inset #ccc;
 	background-color: white;
-	background-color: -moz-field;
-	border: 1px solid darkgray;
-	box-shadow: 1px 1px 1px 0 lightgray inset;
-	font: -moz-field;
-	font: -webkit-small-control;
-	margin-top: 5px;
-	padding: 2px 3px;
-	width: 398px;
-	height: 40px;
+	overflow: hidden;
+	width: 220px;
+	font-size: 50px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 #game_hint {
-	-moz-appearance: textfield;
-	-webkit-appearance: textfield;
 	box-shadow: 1px 1px 1px 0 lightgray inset;
-  font-weight: bold;
-  font-size: 10px;
+	font-weight: 400;
+	font-size: 20px;
 	width: 100px;
-  height: 20px;
-  padding: 10px;
+	height: 20px;
+	padding: 10px;
+	border: 2px ridge;
 	margin: 20px 0 0 40px;
-	text-align: center;
 }
