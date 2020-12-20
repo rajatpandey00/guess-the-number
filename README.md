@@ -4,5 +4,5 @@ Guess The Number
 npm start
 
 <p>
-    <img src="./Screenshot%202020-12-20%20190100.png" width="220" height="240" />
+    <img src="./Screenshot%202020-12-20%20190100.png" width="80%" height="80%" />
 </p>
