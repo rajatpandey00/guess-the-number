@@ -1,5 +1,5 @@
 Guess The Number
 
-To start the app:
+<b>To start the app:</b><br/>
 npm start
 
